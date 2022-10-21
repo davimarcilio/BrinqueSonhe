@@ -166,9 +166,9 @@ var canvasShape = function (block_id, params) {
 
 // // Customization
 canvasShape('canvas-shapes', {
-    size: 6,  // Change Elements Size 
-    speed: 5, // Change Elements Speed
-    number_of_item: 600,  // Max Limit Of Iteam 250
+    size: 10,  // Change Elements Size 
+    speed: 2, // Change Elements Speed
+    number_of_item: 400,  // Max Limit Of Iteam 250
     shape: "circle",  //You Can Change With "circle" , "square" , "triangle", "hexa"
     // color: '#008000',  // Change Elements Color
     // image: "http://petitrocher.camp-atlantique.com/sites/default/files/styles/icone_titre_home_25_25/public/icone_smile_soleil_134.png",

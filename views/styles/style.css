@@ -3,7 +3,15 @@
     src: url('/fonts/logofont');
 }
 
-.testbody {
+.logofont,
+letter {
     font-family: 'Bakso', sans-serif;
     font-size: 30px;
+}
+
+/* #canvas-shapes {
+    top: 17vmin;
+} */
+.bg-darkblue {
+    background-color: rgb(12, 12, 71);
 }
