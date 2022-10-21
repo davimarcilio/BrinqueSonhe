@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Bakso';
+    src: url('/fonts/logofont');
+}
+
+.testbody {
+    font-family: 'Bakso', sans-serif;
+    font-size: 30px;
+}
