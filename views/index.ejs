@@ -12,11 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/indexcss">
     <link rel="stylesheet" href="/css/ABCA">
+    <link rel="stylesheet" href="/css/fadeAnimcss">
     <title>Brinque & Sonhe</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-darkblue">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
         <div class="container-lg">
 
             <a class="navbar-brand" href="#">
@@ -56,10 +57,19 @@
         </div>
     </nav>
     <div id="canvas-shapes"></div>
-    <div class="content container mx-5 px-5">
-        <h1>Espaço para festas infantis, casamentos, formaturas, 15 anos e eventos</h1>
-        <h2>Descubra o que cada momento reserva para você. Realizamos seu evento por completo.</h2>
+    <div class="content container mx-5 p-5 bg-dark rounded box-shadow">
+        <h1 class="h1">Espaço para festas infantis, casamentos, formaturas, 15 anos e eventos</h1>
+        <h5 class="h5">Descubra o que cada momento reserva para você. Realizamos seu evento por completo.
+        </h5>
     </div>
+    <div id="#about" class="about bg-info">
+        <h1 class="abouttext fadeOut">Somos uma empresa de eventos infantis a mais de 10 anos no mercado,
+            começamos com aluguel
+            de brinquedos e
+            hoje temos um espaço com 550m² de pura diversão</h1>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="/js/fadeAnimjs"></script>
     <script src="/js/ABJA"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
