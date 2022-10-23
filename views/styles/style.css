@@ -3,26 +3,66 @@
     src: url('/fonts/logofont');
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .logofont,
 letter {
     font-family: 'Bakso', sans-serif;
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 /* #canvas-shapes {
     top: 17vmin;
 } */
 .bg-darkblue {
-    background: rgb(126, 38, 241);
-    background: linear-gradient(90deg, rgba(126, 38, 241, 1) 30%, rgba(91, 12, 194, 1) 55%);
+    /* background: rgb(126, 38, 241);
+    background: linear-gradient(90deg, rgba(126, 38, 241, 1) 30%, rgba(91, 12, 194, 1) 55%); */
+    transition: all 5s;
 }
 
 .box-shadow {
-    box-shadow: 6px 8px 20px 10px rgba(0, 0, 0, 0.45);
+    box-shadow: 9px 15px 36px 3px rgba(0, 0, 0, 0.51);
+    -webkit-box-shadow: 9px 15px 36px 3px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 9px 15px 36px 3px rgba(0, 0, 0, 0.51);
+}
+
+.bg-lilas {
+    background-color: rgb(98, 38, 175);
 }
 
 .about {
     position: absolute;
     top: 100vh;
     height: 100vh;
+    background: linear-gradient(90deg, rgba(126, 38, 241, 1) 30%, rgba(91, 12, 194, 1) 55%)
+}
+
+.locate {
+    top: 200vh;
+}
+
+.responsive-width {
+    width: 35vw;
+}
+
+.aboutimg {
+    position: absolute;
+    right: 10vw;
+}
+
+@media (max-width: 600px) {
+    .responsive-width {
+        width: unset;
+    }
+
+    .logofont,
+    letter {
+        font-size: 6vw;
+    }
+
+    .image-content {
+        display: none;
+    }
 }

@@ -29,3 +29,7 @@ h2 {
     font-size: 30px;
     text-shadow: 0 10px 50px #000;
 }
+
+.image-content {
+    right: 10vw;
+}
