@@ -66,6 +66,8 @@ letter {
     right: 10vw;
 }
 
+.w-carousel {}
+
 @media (max-width: 600px) {
     .responsive-width {
         width: unset;
