@@ -50,7 +50,7 @@ letter {
 .locate {
     position: absolute;
     top: 200vh;
-    height: 200vh;
+    height: 300vh;
     background: radial-gradient(circle, #7e26f1 10%, transparent 11%);
     background-size: 6em 6em;
     background-color: #ffffff;
