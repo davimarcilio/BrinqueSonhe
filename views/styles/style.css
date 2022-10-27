@@ -66,6 +66,10 @@ letter {
     right: 10vw;
 }
 
+.checked {
+    color: orange;
+}
+
 @media (max-width: 600px) {
     .responsive-width {
         width: unset;
